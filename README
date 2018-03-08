@@ -1,0 +1,9 @@
+Sample program showing how to use Raygui with custom render library.
+
+This program using tigr as graphics library. 
+
+I did not able to use standalone Raygui with macro RAYGUI_STANDALONE. This is 
+why I wrote fake "raylib.h" header with some raylib macros, typedefs and 
+function's declarations needed by Raygui.
+
+License - CC0.
